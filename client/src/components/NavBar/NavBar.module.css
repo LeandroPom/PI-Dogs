@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5C5552;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  transition: background-color 0.3s ease; /* Efecto de transición para cambiar el color de fondo */
+}
+  
+.container img{
+  width: 50px;
+  padding-left: 15px;
+}

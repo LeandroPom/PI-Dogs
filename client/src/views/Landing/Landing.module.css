@@ -1,0 +1,23 @@
+.Landing {
+  background-image: url('./icon_dogs.png');
+  background-size: 35rem; /* Ajusta según necesidades */
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8f857d; /* Fondo que no abarca la imagen */
+}
+
+.Landing button {
+  padding: 12px;
+  border-radius: 25px;
+  background-color: #8f857d; /* Color del fondo */
+  cursor: pointer;
+  border: none;
+}
+
+.Landing button:hover {
+  background-color: #decbb7; /* Cambio al color verde en hover */
+}

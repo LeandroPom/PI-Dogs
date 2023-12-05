@@ -1,0 +1,71 @@
+.containerHome{
+  background-color:#decbb7;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+
+.cardTas {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.allOrder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttonR{
+  height: 42px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 6px;
+  left: 5rem;
+  z-index: 1001; 
+  transition: background-color 0.3s ease; 
+}
+
+.buttonR button{
+  padding: 12px 20px;
+  color: #f7f0f5;
+  background-color: #433633;
+  font-size: 18px;
+  border-radius: 20px; 
+  font-family: sans-serif;
+  font-weight: bold; 
+}
+.buttonR button a{
+   color:#f7f0f5;
+}
+
+.buttonR button:hover {
+  background-color: #433633b5;
+  
+}
+ 
+.allOrder select {
+  position: fixed;
+  z-index: 1001; 
+  transition: background-color 0.3s ease; 
+  background-color: #8f857d;
+  border: 1px solid #8f857d;
+  border-radius: 12px;
+  padding: 8px;
+  top: 11px;
+  margin-left: 25rem;
+}
+
+.searchContainer {
+  margin: 100px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}

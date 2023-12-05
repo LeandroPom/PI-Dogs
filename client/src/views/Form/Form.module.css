@@ -1,0 +1,73 @@
+/* styles.module.css */
+
+.formBack {
+  background-image: url('./dogForms.jpg');
+  background-size: 100%;
+  color: #433633;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinea en el centro verticalmente */
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.formStyles {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  gap: 6px;
+  margin: 10px;
+  background-color: rgba(143, 133, 125, 0.939);
+  height: 24rem;
+  width: 30rem;
+  border-radius: 25px;
+}
+
+.searchInput input {
+  padding: 10px;
+  border-radius: 25px;
+  width: 20rem;
+  border: solid 2px #8f857d ;
+  background-color:#f7f0f5 ;
+  color: rgb(0, 0, 0);
+}
+
+.searchInput button {
+  padding: 10px;
+  width: 8rem;
+  background-color: #433633;
+  color: #f7f0f5;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.searchInput button:hover {
+  background-color: #5C5552;
+  border: solid 1.5px #8f857d;
+}
+
+.buttonHome{
+  padding: 10px;
+  width: 8rem;
+  background-color: #433633;
+  color: #f7f0f5;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
